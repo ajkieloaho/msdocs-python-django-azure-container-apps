@@ -10,6 +10,12 @@ on:
     - '**'
     - '.github/workflows/python-container-app-AutoDeployTrigger-75feab85-19eb-4ddb-b205-5d5b6ae5fda4.yml'
 
+# Special permissions required for OIDC authentication
+permissions:
+    id-token: write
+    contents: read
+    #pull-requests: write 
+
   # Allow manual trigger 
   workflow_dispatch:
       
