@@ -37,3 +37,6 @@ jobs:
           resourceGroup: pythoncontainer-rg
           imageToBuild: lenvappacr.azurecr.io/python-container-app:${{ github.sha }}
           dockerfilePath: Dockerfile
+
+     
+
